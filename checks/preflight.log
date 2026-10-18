@@ -1,0 +1,17 @@
+60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+1x: 60 requests, 0 without X-Item-Id, per-item min 1 max 1, settings ['{"model": "ibm-granite/granite-4.2-8b", "temperature": 1.0, "top_p": 0.95, "reasoning": {"enabled": false}}']
+BUDGET OK
+checks/preflight.sh: line 16: 60708 Terminated: 15          python3 "$D/checks/count_proxy.py" --port $PORT --upstream "$UP" --log "$OUT/calls.$b.jsonl"
+FORMAT OK: missing 0, unparsed 0
+60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+3x: 180 requests, 0 without X-Item-Id, per-item min 3 max 3, settings ['{"model": "ibm-granite/granite-4.2-8b", "temperature": 1.0, "top_p": 0.95, "reasoning": {"enabled": false}}']
+BUDGET OK
+checks/preflight.sh: line 16: 60746 Terminated: 15          python3 "$D/checks/count_proxy.py" --port $PORT --upstream "$UP" --log "$OUT/calls.$b.jsonl"
+FORMAT OK: missing 0, unparsed 0
+60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+10x: 600 requests, 0 without X-Item-Id, per-item min 10 max 10, settings ['{"model": "ibm-granite/granite-4.2-8b", "temperature": 1.0, "top_p": 0.95, "reasoning": {"enabled": false}}']
+BUDGET OK
+checks/preflight.sh: line 16: 60797 Terminated: 15          python3 "$D/checks/count_proxy.py" --port $PORT --upstream "$UP" --log "$OUT/calls.$b.jsonl"
+FORMAT OK: missing 0, unparsed 0
+60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+MODEL DEPENDENCE: 60/60 answers change when the model output is perturbed

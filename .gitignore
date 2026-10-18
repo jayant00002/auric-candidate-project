@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials*.json
+secrets.json
+secrets*.json
+.aws/
+.ssh/
+.netrc
+.pypirc
+# Generated files and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+# Retain the reviewed experiment evidence from the submission.
+!checks/preflight.log
+!checks/preflight_1x3x.log
+!ablation/ablate*.log
+.DS_Store
+out/
+checks/out/

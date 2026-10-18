@@ -1,0 +1,5 @@
+full          3x   run 1: 0.8833  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+full          10x  run 1: 0.9  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+| arm | what changes | 3x | 10x |
+|---|---|---|---|
+| full | full system | 88.3 (n=1) | 90.0 (n=1) |

@@ -1,0 +1,9 @@
+full          3x   run 1: 0.9333  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_ce         3x   run 1: 0.4333  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_echo       3x   run 1: 0.7667  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_normalize  3x   run 1: 0.9167  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_realign    3x   run 1: 0.8833  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_ground     3x   run 1: 0.8667  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_lenient    3x   run 1: 0.8833  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_prefilter  3x   run 1: 0.9333  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_dedupe     3x   run 1: 0.9167  60 items, calls/item min 3 max 3 mean 3.00, request errors 0

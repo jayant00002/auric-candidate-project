@@ -1,0 +1,12 @@
+no_min_core   3x   run 1: 0.85  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_solver     3x   run 1: 0.0  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+plural_vote   3x   run 1: 0.9333  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_vote       3x   run 1: 0.8833  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+no_repair     3x   run 1: 0.8667  60 items, calls/item min 3 max 3 mean 3.00, request errors 0
+| arm | what changes | 3x |
+|---|---|---|
+| no_min_core | cite the smallest conflict even if implausibly small | 85.0 (n=1) |
+| no_solver | model answers the item directly; no symbolic solver | 0.0 (n=1) |
+| plural_vote | plain plurality vote instead of asymmetric | 93.3 (n=1) |
+| no_vote | use only the last sample | 88.3 (n=1) |
+| no_repair | no re-vote when the outcome is impossible | 86.7 (n=1) |

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# ./run <items.json> --budget <1x|3x|10x> --out <answers.json>
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Use $PYTHON if set, else the first python3 on PATH (or a common install)
+# that is >= 3.9 and has the pinned dependencies (pip install -r requirements.txt).
+PY="${PYTHON:-}"
+if [ -z "$PY" ]; then
+  for c in python3 /opt/homebrew/bin/python3 /opt/anaconda3/bin/python3 /usr/local/bin/python3 /usr/bin/python3; do
+    if command -v "$c" >/dev/null 2>&1 && "$c" -c "import openai, httpx" >/dev/null 2>&1; then PY="$c"; break; fi
+  done
+fi
+if [ -z "$PY" ]; then
+  echo "run: no python3 with the 'openai' package found. Install it with:" >&2
+  echo "     python3 -m pip install -r $HERE/requirements.txt   (or set PYTHON=/path/to/python3)" >&2
+  exit 1
+fi
+exec env PYTHONPATH="$HERE${PYTHONPATH:+:$PYTHONPATH}" "$PY" -m rota.cli "$@"

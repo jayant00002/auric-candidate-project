@@ -1,0 +1,2015 @@
+[
+ {
+  "arm": "full",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8667,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.85,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.8667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 1.0,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 2.95,
+   "core_mean": 3.5,
+   "cited_chars_mean": 172.2,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "full",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.95,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 19
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9812,
+   "ambiguous_partial": 0.95,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.05,
+   "core_mean": 3.5,
+   "cited_chars_mean": 188.95,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "full",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.95,
+    "ambiguous": 0.9,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 19
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 19,
+     "ambiguous": 1,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 3,
+     "inconsistent": 16,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 1.0,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.8,
+   "cited_mean": 2.9,
+   "core_mean": 3.5,
+   "cited_chars_mean": 180.6,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_ce",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.4667,
+   "per_case_rate": {
+    "unique": 0.45,
+    "ambiguous": 0.3,
+    "inconsistent": 0.65
+   },
+   "exact_match": 0.4667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 9
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 6
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 13
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 9,
+     "ambiguous": 1,
+     "inconsistent": 10,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 11,
+     "inconsistent": 9,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.4875,
+   "ambiguous_partial": 0.3,
+   "inconsistent_label_only": 0.2,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 2.9,
+   "core_mean": 3.5,
+   "cited_chars_mean": 172.4,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_ce",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.4,
+   "per_case_rate": {
+    "unique": 0.3,
+    "ambiguous": 0.3,
+    "inconsistent": 0.6
+   },
+   "exact_match": 0.4,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 6
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 6
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 12
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 6,
+     "ambiguous": 4,
+     "inconsistent": 10,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 1,
+     "ambiguous": 11,
+     "inconsistent": 8,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 3,
+     "inconsistent": 16,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.4,
+   "ambiguous_partial": 0.3,
+   "inconsistent_label_only": 0.2,
+   "conflict_containment": null,
+   "conflict_coverage": 0.8,
+   "cited_mean": 2.95,
+   "core_mean": 3.5,
+   "cited_chars_mean": 179.5,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_ce",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.4167,
+   "per_case_rate": {
+    "unique": 0.3,
+    "ambiguous": 0.35,
+    "inconsistent": 0.6
+   },
+   "exact_match": 0.4167,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 6
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 7
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 12
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 6,
+     "ambiguous": 2,
+     "inconsistent": 12,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 2,
+     "ambiguous": 14,
+     "inconsistent": 4,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 0,
+     "ambiguous": 2,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.375,
+   "ambiguous_partial": 0.35,
+   "inconsistent_label_only": 0.3,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 2.8,
+   "core_mean": 3.5,
+   "cited_chars_mean": 160.05,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_echo",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.6167,
+   "per_case_rate": {
+    "unique": 0.5,
+    "ambiguous": 0.55,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.6167,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 10
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 11
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 11,
+     "ambiguous": 7,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 1,
+     "ambiguous": 16,
+     "inconsistent": 3,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.7688,
+   "ambiguous_partial": 0.55,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.05,
+   "core_mean": 3.5,
+   "cited_chars_mean": 189.7,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_echo",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.6667,
+   "per_case_rate": {
+    "unique": 0.75,
+    "ambiguous": 0.55,
+    "inconsistent": 0.7
+   },
+   "exact_match": 0.6667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 15
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 11
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 14
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 16,
+     "ambiguous": 2,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 1,
+     "ambiguous": 16,
+     "inconsistent": 3,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 3,
+     "ambiguous": 2,
+     "inconsistent": 15,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.8562,
+   "ambiguous_partial": 0.55,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.75,
+   "cited_mean": 2.65,
+   "core_mean": 3.5,
+   "cited_chars_mean": 166.25,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_echo",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.6333,
+   "per_case_rate": {
+    "unique": 0.55,
+    "ambiguous": 0.55,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.6333,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 11
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 11
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 12,
+     "ambiguous": 5,
+     "inconsistent": 3,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 1,
+     "ambiguous": 15,
+     "inconsistent": 4,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.725,
+   "ambiguous_partial": 0.55,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.1,
+   "core_mean": 3.5,
+   "cited_chars_mean": 186.9,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_normalize",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8667,
+   "per_case_rate": {
+    "unique": 0.85,
+    "ambiguous": 0.85,
+    "inconsistent": 0.9
+   },
+   "exact_match": 0.8667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 17
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 18
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 17,
+     "ambiguous": 2,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 0,
+     "ambiguous": 1,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9187,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.35,
+   "core_mean": 3.5,
+   "cited_chars_mean": 206.55,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_normalize",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.75,
+    "ambiguous": 0.95,
+    "inconsistent": 0.95
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 15
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 19
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 19
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 15,
+     "ambiguous": 5,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 20,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 0,
+     "ambiguous": 1,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9,
+   "ambiguous_partial": 0.95,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.4,
+   "core_mean": 3.5,
+   "cited_chars_mean": 198.0,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_normalize",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.7833,
+   "per_case_rate": {
+    "unique": 0.65,
+    "ambiguous": 0.8,
+    "inconsistent": 0.9
+   },
+   "exact_match": 0.7833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 13
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 16
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 18
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 13,
+     "ambiguous": 5,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 0,
+     "ambiguous": 1,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.8,
+   "ambiguous_partial": 0.8,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.35,
+   "core_mean": 3.5,
+   "cited_chars_mean": 195.4,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_realign",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8667,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.85,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.8667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 1,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 1.0,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 3.0,
+   "core_mean": 3.5,
+   "cited_chars_mean": 180.55,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_realign",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8667,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.9,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.8667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 3,
+     "inconsistent": 16,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 1.0,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.8,
+   "cited_mean": 2.75,
+   "core_mean": 3.5,
+   "cited_chars_mean": 159.65,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_realign",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8333,
+   "per_case_rate": {
+    "unique": 0.85,
+    "ambiguous": 0.85,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.8333,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 17
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 17,
+     "ambiguous": 3,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 18,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9688,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.0,
+   "core_mean": 3.5,
+   "cited_chars_mean": 182.65,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_ground",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8667,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.85,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.8667,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 1,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9812,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 3.2,
+   "core_mean": 3.5,
+   "cited_chars_mean": 194.75,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_ground",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.85,
+   "per_case_rate": {
+    "unique": 0.85,
+    "ambiguous": 0.9,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.85,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 17
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 17,
+     "ambiguous": 3,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9688,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 2.95,
+   "core_mean": 3.5,
+   "cited_chars_mean": 167.55,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 1"
+ },
+ {
+  "arm": "no_ground",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.9,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 1,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 1,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.95,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 3.2,
+   "core_mean": 3.5,
+   "cited_chars_mean": 188.7,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_lenient",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.7833,
+   "per_case_rate": {
+    "unique": 0.7,
+    "ambiguous": 0.85,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.7833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 14
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 14,
+     "ambiguous": 5,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 2,
+     "ambiguous": 2,
+     "inconsistent": 16,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9125,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.8,
+   "cited_mean": 2.85,
+   "core_mean": 3.5,
+   "cited_chars_mean": 166.65,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_lenient",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.7833,
+   "per_case_rate": {
+    "unique": 0.75,
+    "ambiguous": 0.85,
+    "inconsistent": 0.75
+   },
+   "exact_match": 0.7833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 15
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 15
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 15,
+     "ambiguous": 4,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 2,
+     "ambiguous": 3,
+     "inconsistent": 15,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.75,
+   "cited_mean": 2.7,
+   "core_mean": 3.5,
+   "cited_chars_mean": 158.95,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_lenient",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8,
+   "per_case_rate": {
+    "unique": 0.75,
+    "ambiguous": 0.8,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.8,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 15
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 16
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 15,
+     "ambiguous": 5,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 2,
+     "ambiguous": 1,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9625,
+   "ambiguous_partial": 0.8,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.05,
+   "core_mean": 3.5,
+   "cited_chars_mean": 174.9,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_prefilter",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.85,
+    "ambiguous": 0.85,
+    "inconsistent": 0.95
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 17
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 19
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 17,
+     "ambiguous": 3,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 1,
+     "ambiguous": 18,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 0,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9375,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.4,
+   "core_mean": 3.5,
+   "cited_chars_mean": 203.15,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_prefilter",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8333,
+   "per_case_rate": {
+    "unique": 0.75,
+    "ambiguous": 0.85,
+    "inconsistent": 0.9
+   },
+   "exact_match": 0.8333,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 15
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 18
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 16,
+     "ambiguous": 4,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 1,
+     "ambiguous": 17,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 0,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9688,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.4,
+   "core_mean": 3.5,
+   "cited_chars_mean": 201.45,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_prefilter",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.8,
+    "ambiguous": 0.9,
+    "inconsistent": 0.95
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 16
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 19
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 16,
+     "ambiguous": 4,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 0,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.95,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.4,
+   "core_mean": 3.5,
+   "cited_chars_mean": 202.8,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_dedupe",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.9,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.95,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.9,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 19
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9688,
+   "ambiguous_partial": 0.95,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.0,
+   "core_mean": 3.5,
+   "cited_chars_mean": 178.8,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_dedupe",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.9,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9688,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 3.05,
+   "core_mean": 3.5,
+   "cited_chars_mean": 187.95,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_dedupe",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8167,
+   "per_case_rate": {
+    "unique": 0.8,
+    "ambiguous": 0.85,
+    "inconsistent": 0.8
+   },
+   "exact_match": 0.8167,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 16
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 16
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 16,
+     "ambiguous": 4,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 3,
+     "inconsistent": 16,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.95,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.8,
+   "cited_mean": 2.85,
+   "core_mean": 3.5,
+   "cited_chars_mean": 178.55,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_min_core",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.75,
+    "inconsistent": 0.75
+   },
+   "exact_match": 0.8,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 15
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 15
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 2,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 18,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 2,
+     "inconsistent": 17,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.95,
+   "ambiguous_partial": 0.75,
+   "inconsistent_label_only": 0.1,
+   "conflict_containment": null,
+   "conflict_coverage": 0.85,
+   "cited_mean": 2.75,
+   "core_mean": 3.5,
+   "cited_chars_mean": 162.55,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_min_core",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.9,
+   "per_case_rate": {
+    "unique": 0.95,
+    "ambiguous": 0.85,
+    "inconsistent": 0.9
+   },
+   "exact_match": 0.9,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 19
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 18
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 19,
+     "ambiguous": 1,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 19,
+     "inconsistent": 1,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 1,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 1.0,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 3.25,
+   "core_mean": 3.5,
+   "cited_chars_mean": 195.45,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_min_core",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.85,
+   "per_case_rate": {
+    "unique": 0.85,
+    "ambiguous": 0.85,
+    "inconsistent": 0.85
+   },
+   "exact_match": 0.85,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 17
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 17
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 17
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 17,
+     "ambiguous": 3,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 18,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 1,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9812,
+   "ambiguous_partial": 0.85,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 3.2,
+   "core_mean": 3.5,
+   "cited_chars_mean": 192.95,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_solver",
+  "budget": "1x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.0,
+   "per_case_rate": {
+    "unique": 0.0,
+    "ambiguous": 0.0,
+    "inconsistent": 0.0
+   },
+   "exact_match": 0.0,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 0
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 0
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 0
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 10,
+     "ambiguous": 0,
+     "inconsistent": 10,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 7,
+     "ambiguous": 0,
+     "inconsistent": 13,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 12,
+     "ambiguous": 0,
+     "inconsistent": 8,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.2062,
+   "ambiguous_partial": 0.0,
+   "inconsistent_label_only": 0.4,
+   "conflict_containment": null,
+   "conflict_coverage": 0.4,
+   "cited_mean": 2.35,
+   "core_mean": 3.5,
+   "cited_chars_mean": 127.25,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_solver",
+  "budget": "1x",
+  "run": 2,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.0,
+   "per_case_rate": {
+    "unique": 0.0,
+    "ambiguous": 0.0,
+    "inconsistent": 0.0
+   },
+   "exact_match": 0.0,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 0
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 0
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 0
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 12,
+     "ambiguous": 0,
+     "inconsistent": 8,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 10,
+     "ambiguous": 0,
+     "inconsistent": 10,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 15,
+     "ambiguous": 0,
+     "inconsistent": 5,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.2188,
+   "ambiguous_partial": 0.0,
+   "inconsistent_label_only": 0.25,
+   "conflict_containment": null,
+   "conflict_coverage": 0.2,
+   "cited_mean": 0.8,
+   "core_mean": 3.5,
+   "cited_chars_mean": 46.75,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ },
+ {
+  "arm": "no_solver",
+  "budget": "1x",
+  "run": 3,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.0,
+   "per_case_rate": {
+    "unique": 0.0,
+    "ambiguous": 0.0,
+    "inconsistent": 0.0
+   },
+   "exact_match": 0.0,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 0
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 0
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 0
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 12,
+     "ambiguous": 0,
+     "inconsistent": 8,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 8,
+     "ambiguous": 0,
+     "inconsistent": 12,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 16,
+     "ambiguous": 0,
+     "inconsistent": 4,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.2437,
+   "ambiguous_partial": 0.0,
+   "inconsistent_label_only": 0.2,
+   "conflict_containment": null,
+   "conflict_coverage": 0.15,
+   "cited_mean": 1.4,
+   "core_mean": 3.5,
+   "cited_chars_mean": 88.25,
+   "core_chars_mean": 202.8,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 1 max 1 mean 1.00, request errors 0"
+ }
+]

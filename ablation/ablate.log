@@ -1,0 +1,49 @@
+full          1x   run 1: 0.8667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+full          1x   run 2: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+full          1x   run 3: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_ce         1x   run 1: 0.4667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_ce         1x   run 2: 0.4  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_ce         1x   run 3: 0.4167  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_echo       1x   run 1: 0.6167  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_echo       1x   run 2: 0.6667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_echo       1x   run 3: 0.6333  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_normalize  1x   run 1: 0.8667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_normalize  1x   run 2: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_normalize  1x   run 3: 0.7833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_realign    1x   run 1: 0.8667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_realign    1x   run 2: 0.8667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_realign    1x   run 3: 0.8333  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_ground     1x   run 1: 0.8667  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_ground     1x   run 2: 0.85  60 items, calls/item min 1 max 1 mean 1.00, request errors 1
+no_ground     1x   run 3: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_lenient    1x   run 1: 0.7833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_lenient    1x   run 2: 0.7833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_lenient    1x   run 3: 0.8  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_prefilter  1x   run 1: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_prefilter  1x   run 2: 0.8333  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_prefilter  1x   run 3: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_dedupe     1x   run 1: 0.9  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_dedupe     1x   run 2: 0.8833  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_dedupe     1x   run 3: 0.8167  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_min_core   1x   run 1: 0.8  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_min_core   1x   run 2: 0.9  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_min_core   1x   run 3: 0.85  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_solver     1x   run 1: 0.0  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_solver     1x   run 2: 0.0  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+no_solver     1x   run 3: 0.0  60 items, calls/item min 1 max 1 mean 1.00, request errors 0
+| arm | what changes | 1x |
+|---|---|---|
+| full | full system | 87.8 (n=3) |
+| no_ce | positional DSL instead of controlled English | 42.8 (n=3) |
+| no_echo | controlled English without echoing the statement | 63.9 (n=3) |
+| no_normalize | hedges / restatement lead-ins sent to the model | 84.4 (n=3) |
+| no_realign | trust the model's line numbers, ignore the echo | 85.6 (n=3) |
+| no_ground | accept translations naming things the statement does not | 86.7 (n=3) |
+| no_lenient | read only the listed output forms (no or/and, no 'one of') | 78.9 (n=3) |
+| no_prefilter | send statements that name no person/block/station | 86.7 (n=3) |
+| no_dedupe | send restated statements twice | 86.7 (n=3) |
+| no_min_core | cite the smallest conflict even if implausibly small | 85.0 (n=3) |
+| no_solver | model answers the item directly; no symbolic solver | 0.0 (n=3) |
+| plural_vote | plain plurality vote instead of asymmetric | =full |
+| no_vote | use only the last sample | =full |
+| no_repair | no re-vote when the outcome is impossible | =full |

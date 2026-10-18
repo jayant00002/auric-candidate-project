@@ -1,0 +1,124 @@
+[
+ {
+  "arm": "full",
+  "budget": "3x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.8833,
+   "per_case_rate": {
+    "unique": 0.85,
+    "ambiguous": 0.9,
+    "inconsistent": 0.9
+   },
+   "exact_match": 0.8833,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 17
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 18
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 17,
+     "ambiguous": 1,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 20,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 0,
+     "inconsistent": 19,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.05,
+   "conflict_containment": null,
+   "conflict_coverage": 0.95,
+   "cited_mean": 3.3,
+   "core_mean": 3.5,
+   "cited_chars_mean": 203.5,
+   "core_chars_mean": 229.2,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 3 max 3 mean 3.00, request errors 0"
+ },
+ {
+  "arm": "full",
+  "budget": "10x",
+  "run": 1,
+  "score": {
+   "n_items": 60,
+   "macro_exact_match": 0.9,
+   "per_case_rate": {
+    "unique": 0.9,
+    "ambiguous": 0.9,
+    "inconsistent": 0.9
+   },
+   "exact_match": 0.9,
+   "per_case": {
+    "unique": {
+     "n": 20,
+     "correct": 18
+    },
+    "ambiguous": {
+     "n": 20,
+     "correct": 18
+    },
+    "inconsistent": {
+     "n": 20,
+     "correct": 18
+    }
+   },
+   "confusion": {
+    "unique": {
+     "unique": 18,
+     "ambiguous": 0,
+     "inconsistent": 2,
+     "unparsed": 0
+    },
+    "ambiguous": {
+     "unique": 0,
+     "ambiguous": 20,
+     "inconsistent": 0,
+     "unparsed": 0
+    },
+    "inconsistent": {
+     "unique": 1,
+     "ambiguous": 1,
+     "inconsistent": 18,
+     "unparsed": 0
+    }
+   },
+   "cell_accuracy": 0.9,
+   "ambiguous_partial": 0.9,
+   "inconsistent_label_only": 0.0,
+   "conflict_containment": null,
+   "conflict_coverage": 0.9,
+   "cited_mean": 3.15,
+   "core_mean": 3.5,
+   "cited_chars_mean": 192.45,
+   "core_chars_mean": 229.2,
+   "containment_rankable": false,
+   "missing_or_unparsed": 0
+  },
+  "log": "60 items, calls/item min 10 max 10 mean 10.00, request errors 0"
+ }
+]

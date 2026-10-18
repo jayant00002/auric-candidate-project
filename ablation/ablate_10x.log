@@ -1,0 +1,20 @@
+full          10x  run 1: 0.9167  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_ce         10x  run 1: 0.5  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_normalize  10x  run 1: 0.9333  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_ground     10x  run 1: 0.9167  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_lenient    10x  run 1: 0.9  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+plural_vote   10x  run 1: 0.9167  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_vote       10x  run 1: 0.7833  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_repair     10x  run 1: 0.9  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+no_solver     10x  run 1: 0.0  60 items, calls/item min 10 max 10 mean 10.00, request errors 0
+| arm | what changes | 10x |
+|---|---|---|
+| full | full system | 91.7 (n=1) |
+| no_ce | positional DSL instead of controlled English | 50.0 (n=1) |
+| no_normalize | hedges / restatement lead-ins sent to the model | 93.3 (n=1) |
+| no_ground | accept translations naming things the statement does not | 91.7 (n=1) |
+| no_lenient | read only the listed output forms (no or/and, no 'one of') | 90.0 (n=1) |
+| plural_vote | plain plurality vote instead of asymmetric | 91.7 (n=1) |
+| no_vote | use only the last sample | 78.3 (n=1) |
+| no_repair | no re-vote when the outcome is impossible | 90.0 (n=1) |
+| no_solver | model answers the item directly; no symbolic solver | 0.0 (n=1) |
